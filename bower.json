@@ -1,0 +1,28 @@
+{
+  "name": "autils",
+  "version": "1.0.0",
+  "authors": [
+    "Sergey Baev <tinbka@gmail.com>"
+  ],
+  "description": "Rubyish enumerable methods for JS Objects and Arrays",
+  "main": "autils.js",
+  "moduleType": [
+    "globals"
+  ],
+  "keywords": [
+    "array",
+    "object",
+    "enumerable",
+    "common-use",
+    "unobtrusive"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/tinbka",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
