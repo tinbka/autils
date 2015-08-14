@@ -1,6 +1,6 @@
 /**
  * @license autils v1.0.0
- * (c) Sergey Baev <tinbka@gmail.com>, https://github.com/tinbka
+ * (c) Sergey Baev, https://github.com/tinbka
  * License: MIT
  *
  * Rubyish enumerable methods for JS Objects and Arrays.
@@ -166,9 +166,10 @@ $au = {
   
   /* SELECT-REJECT */
   compact: function(obj) {
-    var ary = [];
-    this.each(obj, function(i) {if (i) ary.push(i)});
-    return ary;
+    if (jQuery.isPlainObject(obj))
+      return $au.select(obj, function(k, v) {return v != null});
+    else
+      return $au.select(obj, function(i) {return i != null});
   },
   
   select: function(obj, fun) {

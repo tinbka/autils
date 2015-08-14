@@ -7,7 +7,7 @@ bower install autils
 Then add a `<script>` to your `index.html`:
 
 ```html
-<script src="/components/autils/autils.js"></script>
+<script src="/bower_components/autils/autils.js"></script>
 ```
 
 ## License
