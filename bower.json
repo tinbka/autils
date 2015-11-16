@@ -2,7 +2,7 @@
   "name": "autils",
   "version": "1.0.0",
   "authors": [
-    "Sergey Baev <tinbka@gmail.com>"
+    "Sergey Baev"
   ],
   "description": "Rubyish enumerable methods for JS Objects and Arrays",
   "main": "autils.js",
